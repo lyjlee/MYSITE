@@ -1,0 +1,57 @@
+main {
+    max-width: 900px;
+    min-height: 1050px; /* 임시 */
+    position: relative;
+    margin: 0 auto;
+
+}
+.more {
+    display: block;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#moviecomment {
+    width: 900px;
+    height: 550px;
+}
+
+#movieinfodiv {
+    width: 250px;
+    float: left;  
+    padding-left: 20px;
+}
+#movieinfodiv img {
+    width: auto;
+    max-height: 300px;
+
+}
+#commentdiv {
+    width: 627px;
+    float: right;    
+}
+#commentdiv table {
+    width: 95%;
+    max-height: 274px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#commentinput {
+    width: 300px;
+}
+#commentdiv div {
+    margin-top: 120px;
+}
+
+/* 검색결과 */
+#searchrdiv {
+    width: 100%;
+    min-height: 500px;
+}

@@ -1,0 +1,52 @@
+main {
+    max-width: 900px;
+    min-height: 1000px; /* 임시 */
+    position: relative;
+    margin: 0 auto;
+}
+.more {
+    display: block;
+    padding: 20px;
+}
+.content {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.inboard {
+    width: 90%;
+    padding-right: 150px;
+    text-align: left; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.inboard a > span:first-child {
+    margin-right: 20px;
+}
+
+
+#movieboard {
+    position: absolute;
+    width: 100%;
+    min-height: 700px;
+    left: 0;
+}
+.boarddate {
+    position: absolute;
+    right: 5%;
+}
+
+#selectdiv {
+    margin: 30px;
+}
+
+#finddiv {
+    position: absolute;
+    bottom: 0;
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+}
+
